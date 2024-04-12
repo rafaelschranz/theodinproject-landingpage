@@ -1,0 +1,122 @@
+body{
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    
+
+}
+img{
+    border-radius: 0.4rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+
+.header{
+    background-color: 	#c01e22;
+    color: white;
+}
+.section{
+    padding: 4rem 2rem 4rem 2rem;
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 0rem 2rem;
+    align-items: center;
+
+}
+.navbar-links{
+    display: flex;
+    gap: 2rem;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+.hero-image{
+    max-width: 55%;
+    max-height: 50%;
+    object-fit: cover;
+}
+.hero-text{
+    font-size: 1.2rem;
+}
+.image-list{
+    display: flex;
+    flex-grow: 1;
+    gap: 2rem;
+}
+
+.image-list-item-image{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+.image-list-item{
+    text-align: center;
+    
+}
+.align-center{
+    text-align: center;
+}
+h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.yellow{
+    background-color: #ffba08;
+}
+.quote-text{
+    font-size: 2.5rem;
+}
+.quote-author{
+text-align: right;
+font-size: 1.5rem;}
+.cta-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 8rem 5rem 8rem;
+    background-color: #c01e22;
+    color: white;
+    align-items: center;
+    gap: 6rem;
+}
+.cta-text{
+    max-width: 70%;
+}
+button{
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: inherit;
+    width: 15rem;
+    
+}
+button:hover
+h1{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: #ffba08;
+    font-size: 1rem;
+}
